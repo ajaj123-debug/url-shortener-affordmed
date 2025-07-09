@@ -1,7 +1,6 @@
 import { Routes, Route } from 'react-router-dom';
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import ShortenerPage from './pages/ShortenerPage.jsx'
 import StatisticsPage from './pages/StatisticsPage.jsx'
