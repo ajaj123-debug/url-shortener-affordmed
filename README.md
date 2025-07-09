@@ -20,3 +20,7 @@ It lets users shorten long URLs, use custom codes, and set validity time (defaul
 - localStorage
 
 ## Folder Structure
+src/
+├── pages/
+├── utils/
+├── App.jsx
