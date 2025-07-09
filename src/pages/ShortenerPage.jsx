@@ -80,7 +80,7 @@ function ShortenerPage() {
       <Typography variant="h6" sx={{ mt: 4 }}>Shortened URLs</Typography>
       {results.map((r, i) => (
         <Typography key={i}>
-          <a href={`http://localhost:3000/${r.shortcode}`} target="_blank">{window.location.origin}/{r.shortcode}</a>
+          <a href={`${window.location.origin}/${r.shortcode}`} target="_blank" rel="noopener noreferrer">{window.location.origin}/{r.shortcode}</a>
         </Typography>
       ))}
 
