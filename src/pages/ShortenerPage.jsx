@@ -65,11 +65,11 @@ function ShortenerPage() {
               onChange={e => handleChange(idx, 'longUrl', e.target.value)} />
           </Grid>
           <Grid item xs={3}>
-            <TextField fullWidth label="Custom Code (optional)" value={entry.shortcode}
+            <TextField fullWidth label="Desired Code (optional)" value={entry.shortcode}
               onChange={e => handleChange(idx, 'shortcode', e.target.value)} />
           </Grid>
           <Grid item xs={2}>
-            <TextField fullWidth label="Validity (min)" value={entry.validity}
+            <TextField fullWidth label="Validity (in min only)" value={entry.validity}
               onChange={e => handleChange(idx, 'validity', e.target.value)} />
           </Grid>
         </Grid>
